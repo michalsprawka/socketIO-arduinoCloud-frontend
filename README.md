@@ -5,12 +5,10 @@ This project is frontend part of the system.
 Currently application receive pressure data from sensor and sending command to switch on LED on desk.
 
 The chain of application is
-
-Flutter             WebSocket (SocketIO) Server           NodeRed Client              Arduino IOT Cloud endpoints on MKR 1010
-(this project)      on Ubuntu Server behind NGINX         on local RaspberryPI        or Arduino MKR 1000
-                                                          with SocketIO libs and
-                                                          Arduino Cloud libs
-
+1. Flutter (this project)
+2. WebSocket (SocketIO) Server on Ubuntu Server behind NGINX
+3. NodeRed Client on local RaspberryPI with SocketIO libs and Arduino Cloud libs
+4. Arduino IOT Cloud endpoints on MKR 1010 or Arduino MKR 1000
 ## Getting Started
 
 This project is a starting point for a Flutter application.
