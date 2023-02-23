@@ -1,6 +1,15 @@
 # arduino_iot_dash
 
-A new Flutter project.
+This is a flutter project which is a part of set of appliacations for sending messages to and from arduino IOT Cloud.
+This project is frontend part of the system.
+Currently application receive pressure data from sensor and sending command to switch on LED on desk.
+
+The chain of application is
+
+Flutter             WebSocket (SocketIO) Server           NodeRed Client              Arduino IOT Cloud endpoints on MKR 1010
+(this project)      on Ubuntu Server behind NGINX         on local RaspberryPI        or Arduino MKR 1000
+                                                          with SocketIO libs and
+                                                          Arduino Cloud libs
 
 ## Getting Started
 
